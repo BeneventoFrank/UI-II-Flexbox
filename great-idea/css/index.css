@@ -63,4 +63,82 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*-------------------------Refactored using flexbox-----------------------------*/
+
+a {
+	text-decoration: none;
+}
+.flexContainer{
+	display:flex;
+}
+.mainHeader{
+	justify-content: space-between;
+	height:40px;
+}
+.navItem{
+	align-items:center;
+}
+.navItem a {
+	padding:20px;
+	color:lightgray;
+}
+.container {
+	width:900px;
+	margin:0 auto;
+}
+.gettingStarted{
+	margin-top:50px;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.gettingStarted div{
+	flex-direction: column;
+}
+.markettingLogo{
+	font-family: Courgette;
+	font-size:75px;
+	justify-content:space-between;
+	padding-left: 80px;
+	padding-right:80px;
+	margin-bottom:80px; 
+	text-align: center;
+}
+.markettingButton {
+	width: 150px;
+	text-align: center;
+	height:20px;
+	border:1px solid black;
+	margin: 0 auto;
+}
+.spacer{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.header {
+	font-family:Patua One;
+	font-weight: bold;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.mainTextTop{
+	margin-bottom:40px;
+}
+.copyright{
+	text-align: center;
+	margin-top:10px;
+	margin-bottom: 100px;
+}
+
+
+
+.courses{
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.courses div {
+	width:400px;
+	
+}
+.aboutServices{
+	flex-direction: column;
+}
