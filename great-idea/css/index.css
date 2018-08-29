@@ -83,7 +83,8 @@ a {
 	color:lightgray;
 }
 .container {
-	width:900px;
+	width:100%;
+	max-width:900px;
 	margin:0 auto;
 }
 .gettingStarted{
@@ -177,4 +178,8 @@ a {
     [class*="col-"] {
         width: 100%;
     }
+}
+.servicesHeaderImage{
+	width: 100%;
+	height: auto;
 }
